@@ -1,0 +1,21 @@
+{
+  "tag": {
+    "id": 40482,
+    "name": "safe",
+    "slug": "safe",
+    "description": "Pieces of official MLP content, without edits and only reasonable animation loops, are *always* safe.\r\n*Cannot be combined with any other rating.*",
+    "short_description": "Entirely safe for work and children.",
+    "images": 1433532,
+    "spoiler_image_uri": "//derpicdn.net/media/2012/07/01/16_01_52_242_safe.png",
+    "aliased_to": null,
+    "aliased_to_id": null,
+    "namespace": null,
+    "name_in_namespace": "safe",
+    "implied_tags": [],
+    "implied_tag_ids": [],
+    "category": "rating"
+  },
+  "aliases": [],
+  "dnp_entries": [],
+  "interactions": []
+}

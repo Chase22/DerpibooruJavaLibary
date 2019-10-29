@@ -3,12 +3,15 @@
  */
 package io.github.chase22.derpibooru
 
+import io.github.chase22.derpibooru.derpibooru.DerpibooruClient
+import io.github.chase22.derpibooru.tag.Tag
+import io.github.chase22.derpibooru.tag.TagMethod
 import kotlin.test.Test
-import kotlin.test.assertTrue
 
 class LibraryTest {
     @Test fun testSomeLibraryMethod() {
-        val classUnderTest = Library()
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'")
+        val client: DerpibooruClient = DerpibooruClient()
+        val tagMethod: TagMethod = TagMethod()
+        val tag: List<Tag> = client.execute(tagMethod).get()
     }
 }
